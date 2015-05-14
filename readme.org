@@ -1,0 +1,12 @@
+* Synopsis
+Copy Kindle annotations file from device after connecting to USB and send it to web server. Web application show's a list of annotations.
+* Uploader
+TODO Udev rule to for uploading Kindle annotation file
+curl -i -F file=@~/Desktop/My\ Clippings.txt localhost:5000/upload
+
+* Scraper
+TODO Save more  metadata to written files
+- Pagenumber
+- Comments
+- Check https://github.com/kroo/mobi-python ?
+

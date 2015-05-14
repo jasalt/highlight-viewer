@@ -9,3 +9,4 @@ if not os.path.exists(UPLOAD_FOLDER):
 clippings = read_clippings(UPLOAD_FOLDER + DATA_FILE)
 
 import ipdb; ipdb.set_trace()
+
